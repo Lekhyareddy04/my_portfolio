@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="7a82277240e43eb5d7ed39438b0f569c.jpg" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fa-lg fas"style="color:white;" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FRONTEND DEVELOPER</p>
+                <h1>HI, I'm <span>Lekhya</span><br>Reddy From Kadapa</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="r">
+                <div class="about-col-1">
+                    <img src="lk.jpg" alt="" class="i">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Motivated Computer Science Engineering student with solid skills in programming (Python, Java, C) and web
+                        development, programming languages, and problem-solving. Seeking an entry-level software engineering
+                        position where I can apply my skills and knowledge to contribute to innovative projects and further develop
+                        my technical abilities.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('SKILLS')">SKILLS</p>
+                            <p class="tab-links" onclick="opentab('EXPERIENCE')">EXPERIENCE</p>
+                            <p class="tab-links" onclick="opentab('EDUCATION')">EDUCATION</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="SKILLS">
+                            <ul>
+                                <li><span>SQL</span><br>python</li>
+                                <li><span>java</span><br>web development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="EXPERIENCE">
+                            <ul>
+                                <li><span>2024(june-aug)</span><br>Elfinity Technologies</li>
+                                <li><span>backend</span><br>online</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="EDUCATION">
+                            <ul>
+                                <li><span>2018-2019</span><br>Harish school</li>
+                                <li><span>2019-2021</span><br>Narayana junior college</li>
+                                <li><span>2021-2025</span><br>G.pullaiah college of engineering and Technology </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------services------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code fa-flip fa-lg"></i>
+                    <h2>FRONTEND DEVELOPER</h2>
+                    <p>As a passionate Frontend Developer, I specialize in creating dynamic, responsive, and user-friendly web interfaces. With a strong foundation in HTML, CSS, and JavaScript, I bring designs to life by ensuring they are visually appealing and highly functional across all devices.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop fa-flip fa-lg"></i>
+                    <h2>BACKEND DEVELOPER</h2>
+                    <p>As an experienced backend developer, I specialize in creating robust and scalable server-side applications using Java, Python, and SQL. I have a strong background in designing and implementing complex systems, ensuring seamless data management and integration. With Java, I build high-performance, secure, and maintainable applications, while my Python expertise allows for rapid development and automation of backend processes.</p>
+                    <a href="">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-slack fa-flip fa-lg"></i>
+                    <h2>WEB DESIGNER</h2>
+                    <p>In my web design projects, I focus on creating visually appealing and user-friendly websites that provide an excellent user experience. My design process involves a deep understanding of the target audience, ensuring that the websites are not only aesthetically pleasing but also functional and easy to navigate.</p>
+                    <a href="">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----------------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="w10.webp" alt="">
+                    <div class="layer">
+                        <h3>UNIQUE_INTERIORS</h3>
+                        <p>The Unique_interior Front-end project is a dynamic web application designed to provide users
+                            with an engaging and interactive online interior experience.
+                            This project focuses on the front-end development of the website using HTML, CSS, Java Script. It
+                            offers a comprehensive and user-friendly interface for browsing interiors, managing Interior
+                            Styles.
+                            </p>
+                        <a href=""><i class="fa-solid fa-link fa-fade fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="w31.webp" alt="">
+                    <div class="layer">
+                        <h3>EXPLORE_THE_WORLD</h3>
+                        <p> Explore the World" is an engaging and interactive web application designed to offer users a virtual
+                            journey through various global destinations...<br>
+                            This project emphasizes a visually appealing and user-friendly interface, using HTML, CSS, and JavaScript
+                            to deliver animmersive experience. The website showcases detailed information about different cities
+                            and landmarks, complete with interactive maps, images, and descriptions.
+                            </p>
+                        <a href=""><i class="fa-solid fa-link fa-fade fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="w9.webp" alt="">
+                    <div class="layer">
+                        <h3>QUICK_SHOP(E-COMMERCE)</h3>
+                        <p>project involved creating a responsive and visually appealing online shopping platform. I focused on crafting
+                             a clean and intuitive user interface with HTML and CSS, ensuring that the site is accessible across various devices. With JavaScript, I added dynamic features like an interactive shopping cart, product filters, and real-time updates.
+                             This experience significantly enhanced my front-end development skills and deepened my 
+                             understanding of building user-centric web applications. I'm excited to continue growing in this space and taking on more challenging projects!</p>
+                        <a href=""><i class="fa-solid fa-link fa-fade fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!-------------contact------------ -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>lekhyareddy04@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 xxxxxxxx13</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100075860299385&mibextid=ZbWKwL"><i class="fa-brands fa-facebook fa-bounce"></i></a>
+                        <a href="https://x.com/Lekhya_Reddy24?t=3QkGZn2b0z6sm4szL-ywNg&s=09"><i class="fa-brands fa-twitter-square fa-bounce"></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?igsh=i6yd4ghhgc1f&utm_content=nb60cjj"><i class="fa-brands fa-instagram fa-bounce"></i></a>
+                        <a href="www.linkedin.com/in/lekhyareddy24"><i class="fa-brands fa-linkedin fa-bounce"></i></a>
+                    </div>
+                    <a href="reddy.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email"required>
+                        <textarea name="message" id="" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> copyright @ lekhyareddy. made with<i class="fa-solid fa-heart"></i> by lekhya</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyp-rDKbTAzzp8e_TMEXiWbl9hLC7Q34nNpCQ1izpaVYb1Q8f24pZ0G1GAs-qMpJ6gP2A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{ msg.innerHTML = "message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
